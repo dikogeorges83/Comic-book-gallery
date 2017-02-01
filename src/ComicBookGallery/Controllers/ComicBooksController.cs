@@ -15,11 +15,9 @@ namespace ComicBookGallery.Controllers
                 return Redirect("/");
               
             }
-            return new ContentResult()
+            return Content("Hello from the Console");
     
-            {
-               return Content("Hello from the Console");
-            }
+          
 
         }
 
